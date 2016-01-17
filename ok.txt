@@ -1,0 +1,135 @@
+﻿C:\Users\Me\temp>npm install --loglevel verbose ftpd@0.2.12
+npm info it worked if it ends with ok
+npm verb cli [ 'C:\\Program Files\\nodejs\\node.exe',
+npm verb cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+npm verb cli   'install',
+npm verb cli   '--loglevel',
+npm verb cli   'verbose',
+npm verb cli   'ftpd@0.2.12' ]
+npm info using npm@2.14.12
+npm info using node@v4.2.4
+npm verb install initial load of C:\Users\Me\temp\package.json
+npm WARN package.json temp@1.0.0 No description
+npm WARN package.json temp@1.0.0 No repository field.
+npm WARN package.json temp@1.0.0 No README data
+npm verb readDependencies loading dependencies from C:\Users\Me\temp\package.json
+npm verb cache add spec ftpd@0.2.12
+npm verb addNamed "0.2.12" is a plain semver version for ftpd
+npm verb addNameVersion registry:https://registry.npmjs.org/ftpd not in flight; fetching
+npm verb request uri https://registry.npmjs.org/ftpd
+npm verb request no auth needed
+npm info attempt registry request try #1 at 5:07:05 AM
+npm verb request id 1e6eabff9103cc23
+npm verb etag "BXPFUPRBZNVUDWDMDV03KYLK2"
+npm http request GET https://registry.npmjs.org/ftpd
+npm http 304 https://registry.npmjs.org/ftpd
+npm verb headers { date: 'Sun, 17 Jan 2016 13:07:06 GMT',
+npm verb headers   via: '1.1 varnish',
+npm verb headers   'cache-control': 'max-age=300',
+npm verb headers   etag: '"BXPFUPRBZNVUDWDMDV03KYLK2"',
+npm verb headers   age: '0',
+npm verb headers   connection: 'keep-alive',
+npm verb headers   'x-served-by': 'cache-sin6924-SIN',
+npm verb headers   'x-cache': 'MISS',
+npm verb headers   'x-cache-hits': '0',
+npm verb headers   'x-timer': 'S1453036026.090306,VS0,VE487',
+npm verb headers   vary: 'Accept' }
+npm verb etag https://registry.npmjs.org/ftpd from cache
+npm verb get saving ftpd to C:\Users\Me\AppData\Roaming\npm-cache\registry.npmjs.org\ftpd\.cache.json
+npm verb addRemoteTarball https://registry.npmjs.org/ftpd/-/ftpd-0.2.12.tgz notin flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/ftpd/-/ftpd-0.2.12.tgz',
+npm verb addRemoteTarball   '65c572b347d355755c4420e224c39dfb58364119' ]
+npm info retry fetch attempt 1 at 5:07:06 AM
+npm info attempt registry request try #1 at 5:07:06 AM
+npm http fetch GET https://registry.npmjs.org/ftpd/-/ftpd-0.2.12.tgz
+npm http fetch 200 https://registry.npmjs.org/ftpd/-/ftpd-0.2.12.tgz
+npm verb addTmpTarball C:\Users\Me\AppData\Local\Temp\npm-3712-26e5b598\registry.npmjs.org\ftpd\-\ftpd-0.2.12.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for ftpd@0.2.12
+npm verb afterAdd C:\Users\Me\AppData\Roaming\npm-cache\ftpd\0.2.12\package\package.json not in flight; writing
+npm verb afterAdd C:\Users\Me\AppData\Roaming\npm-cache\ftpd\0.2.12\package\package.json written
+npm info install ftpd@0.2.12 into C:\Users\Me\temp
+npm info installOne ftpd@0.2.12
+npm verb installOne of ftpd to C:\Users\Me\temp not in flight; installing
+npm verb lock using C:\Users\Me\AppData\Roaming\npm-cache\_locks\ftpd-38b723e18f1a9b08.lock for C:\Users\Me\temp\node_modules\ftpd
+npm verb unbuild node_modules\ftpd
+npm verb gentlyRm don't care about contents; nuking C:\Users\Me\temp\node_modules\ftpd
+npm verb tar unpack C:\Users\Me\AppData\Roaming\npm-cache\ftpd\0.2.12\package.tgz
+npm verb tar unpacking to C:\Users\Me\temp\node_modules\ftpd
+npm verb gentlyRm don't care about contents; nuking C:\Users\Me\temp\node_modules\ftpd
+npm verb write writing to C:\Users\Me\temp\node_modules\ftpd\package.json
+npm info preinstall ftpd@0.2.12
+npm verb readDependencies loading dependencies from C:\Users\Me\temp\node_modules\ftpd\package.json
+npm verb readDependencies loading dependencies from C:\Users\Me\temp\node_modules\ftpd\package.json
+npm verb cache add spec dateformat@1.0.7-1.2.3
+npm verb addNamed "1.0.7-1.2.3" is a plain semver version for dateformat
+npm verb addNameVersion registry:https://registry.npmjs.org/dateformat not in flight; fetching
+npm verb request uri https://registry.npmjs.org/dateformat
+npm verb request no auth needed
+npm info attempt registry request try #1 at 5:07:08 AM
+npm verb etag "3T0P86FX5WB4R5GH6PQ477RXB"
+npm http request GET https://registry.npmjs.org/dateformat
+npm http 200 https://registry.npmjs.org/dateformat
+npm verb headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+npm verb headers   etag: '"7ARSZOXSE92EZNBPOVO3LMMX1"',
+npm verb headers   'content-type': 'application/json',
+npm verb headers   'cache-control': 'max-age=300',
+npm verb headers   'content-length': '19155',
+npm verb headers   'accept-ranges': 'bytes',
+npm verb headers   date: 'Sun, 17 Jan 2016 13:07:08 GMT',
+npm verb headers   via: '1.1 varnish',
+npm verb headers   age: '153',
+npm verb headers   connection: 'keep-alive',
+npm verb headers   'x-served-by': 'cache-sin6924-SIN',
+npm verb headers   'x-cache': 'HIT',
+npm verb headers   'x-cache-hits': '2',
+npm verb headers   'x-timer': 'S1453036028.183599,VS0,VE0',
+npm verb headers   vary: 'Accept' }
+npm verb get saving dateformat to C:\Users\Me\AppData\Roaming\npm-cache\registry.npmjs.org\dateformat\.cache.json
+npm verb addRemoteTarball https://registry.npmjs.org/dateformat/-/dateformat-1.0.7-1.2.3.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/dateformat/-/dateformat-1.0.7-1.2.3.tgz',
+npm verb addRemoteTarball   'ebb561bb7214ee57a8dc2687adab1d555de9419c' ]
+npm info retry fetch attempt 1 at 5:07:08 AM
+npm info attempt registry request try #1 at 5:07:08 AM
+npm http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.7-1.2.3.tgz
+npm http fetch 200 https://registry.npmjs.org/dateformat/-/dateformat-1.0.7-1.2.3.tgz
+npm verb addTmpTarball C:\Users\Me\AppData\Local\Temp\npm-3712-26e5b598\registry.npmjs.org\dateformat\-\dateformat-1.0.7-1.2.3.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for dateformat@1.0.7-1.2.3
+npm verb afterAdd C:\Users\Me\AppData\Roaming\npm-cache\dateformat\1.0.7-1.2.3\package\package.json not in flight; writing
+npm verb afterAdd C:\Users\Me\AppData\Roaming\npm-cache\dateformat\1.0.7-1.2.3\package\package.json written
+npm info install dateformat@1.0.7-1.2.3 into C:\Users\Me\temp\node_modules\ftpd
+npm info installOne dateformat@1.0.7-1.2.3
+npm verb installOne of dateformat to C:\Users\Me\temp\node_modules\ftpd not in flight; installing
+npm verb lock using C:\Users\Me\AppData\Roaming\npm-cache\_locks\dateformat-26022754cceba666.lock for C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm verb unbuild node_modules\ftpd\node_modules\dateformat
+npm verb gentlyRm don't care about contents; nuking C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm verb tar unpack C:\Users\Me\AppData\Roaming\npm-cache\dateformat\1.0.7-1.2.3\package.tgz
+npm verb tar unpacking to C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm verb gentlyRm don't care about contents; nuking C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm verb write writing to C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat\package.json
+npm info preinstall dateformat@1.0.7-1.2.3
+npm verb readDependencies loading dependencies from C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat\package.json
+npm verb readDependencies loading dependencies from C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat\package.json
+npm verb about to build C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm info build C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm info linkStuff dateformat@1.0.7-1.2.3
+npm verb linkBins dateformat@1.0.7-1.2.3
+npm verb linkMans dateformat@1.0.7-1.2.3
+npm verb rebuildBundles dateformat@1.0.7-1.2.3
+npm info install dateformat@1.0.7-1.2.3
+npm info postinstall dateformat@1.0.7-1.2.3
+npm verb unlock done using C:\Users\Me\AppData\Roaming\npm-cache\_locks\dateformat-26022754cceba666.lock for C:\Users\Me\temp\node_modules\ftpd\node_modules\dateformat
+npm verb about to build C:\Users\Me\temp\node_modules\ftpd
+npm info build C:\Users\Me\temp\node_modules\ftpd
+npm info linkStuff ftpd@0.2.12
+npm verb linkBins ftpd@0.2.12
+npm verb linkMans ftpd@0.2.12
+npm verb rebuildBundles ftpd@0.2.12
+npm verb rebuildBundles [ 'dateformat' ]
+npm info install ftpd@0.2.12
+npm info postinstall ftpd@0.2.12
+npm verb unlock done using C:\Users\Me\AppData\Roaming\npm-cache\_locks\ftpd-38b723e18f1a9b08.lock for C:\Users\Me\temp\node_modules\ftpd
+npm verb validateInstall loading C:\Users\Me\temp\package.json for validation
+ftpd@0.2.12 node_modules\ftpd
+└── dateformat@1.0.7-1.2.3
+npm verb exit [ 0, true ]
+npm info ok
